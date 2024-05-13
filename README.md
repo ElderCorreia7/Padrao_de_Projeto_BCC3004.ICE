@@ -22,7 +22,7 @@ Para garantir que os assinantes sejam compatíveis com todas as publicadoras, é
 
 ## Diagrama UML - Observer:
 
-![Diagrama UML - Observer](C:\Users\Elder\Pictures\Eng_Software\structure-observer)
+![Diagrama UML - Observer](structure-observer.png)
 
 ## Explicação do Exemplo de Código (PadraoComportamental.js):
 
@@ -63,7 +63,7 @@ O código cliente que usa o método fábrica não vê diferença entre os produt
 
 ## Diagrama UML - Factory Method:
 
-![Diagrama UML - Factory Method](C:\Users\Elder\Pictures\Eng_Software\structure-factoryMethod)
+![Diagrama UML - Factory Method](structure-factoryMethod.png)
 
 ## Explicação do Exemplo de Código (PadraoCriacional.js):
 
@@ -107,19 +107,6 @@ Os adaptadores não apenas convertem dados entre formatos, mas também ajudam ob
 
 Voltando ao exemplo da bolsa de valores, para lidar com formatos incompatíveis, você pode criar adaptadores XML-para-JSON para cada classe da biblioteca de análise. Então, ajusta-se o código para usar esses adaptadores para se comunicar com a biblioteca. Quando o adaptador recebe uma chamada, ele traduz os dados de XML para JSON e repassa a chamada para os métodos adequados do objeto de análise.
 
-## Diagrama UML - Object adapter e Class adapter:
-# Padrão Estrutural: Adaptador de objeto
-## Descrição:
-Essa implementação usa o princípio de composição do objeto: o adaptador implementa a interface de um objeto e encobre o outro. Ele pode ser implementado em todas as linguagens de programação populares.
-
-![Diagrama UML - Adapter ()](C:\Users\Elder\Pictures\Eng_Software\structure-object-adapter)
-
-# Padrão Estrutural: Adaptador de classe
-## Descrição:
-Essa implementação utiliza herança: o adaptador herda interfaces de ambos os objetos ao mesmo tempo. Observe que essa abordagem só pode ser implementada em linguagens de programação que suportam herança múltipla, tais como C++.
-
-![Diagrama UML - Adapter ()](C:\Users\Elder\Pictures\Eng_Software\structure-class-adapter)
-
 ## Diagrama UML - Object Adapter e Class Adapter
 
 ### Padrão Estrutural: Adaptador de Objeto
@@ -127,14 +114,14 @@ Essa implementação utiliza herança: o adaptador herda interfaces de ambos os 
 #### Descrição:
 Esta implementação utiliza o princípio de composição de objeto: o adaptador implementa a interface de um objeto e encobre o outro. Pode ser implementado em todas as linguagens de programação populares.
 
-![Diagrama UML - Adapter](C:/Users/Elder/Pictures/Eng_Software/structure-object-adapter)
+![Diagrama UML - Adapter](structure-object-adapter.png)
 
 ### Padrão Estrutural: Adaptador de Classe
 
 #### Descrição:
 Esta implementação utiliza herança: o adaptador herda interfaces de ambos os objetos ao mesmo tempo. Observe que essa abordagem só pode ser implementada em linguagens de programação que suportam herança múltipla, como C++.
 
-![Diagrama UML - Adapter](C:/Users/Elder/Pictures/Eng_Software/structure-class-adapter)
+![Diagrama UML - Adapter](structure-class-adapter.png)
 
 
 ## Explicação do Exemplo de Código (PadraoEstrutural.js):
